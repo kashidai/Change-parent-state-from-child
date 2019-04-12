@@ -19,7 +19,7 @@ class Child extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={() => { this.clickButton(); }}>ボタン</button>
+        <button onClick={() => { this.clickButton(); }}>botton</button>
       </div>
     );
   }

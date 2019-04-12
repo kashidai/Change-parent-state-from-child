@@ -12,7 +12,7 @@ class Parent extends React.Component {
   }
 
   hogeFunc() {
-    this.setState({ hoge: '変えたぞ' });
+    this.setState({ hoge: 'change it!' });
 console.log(this.state.hoge);
   }
   render() {
